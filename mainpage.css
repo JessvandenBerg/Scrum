@@ -1,0 +1,227 @@
+@charset "UTF-8";
+.body {
+	background-color:#F3F5FF;
+}
+
+.menu {
+	color: #FFFFFF}
+
+.flex-container { 
+display: flex;
+max-width: 30%;
+height: auto;
+padding-left: 35%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+	background-color: #f4902c;
+}
+
+#main {
+	color: #FFFEFE;
+	 font-family: 'Roboto', sans-serif;
+}
+.sidenav {
+font-family: 'Roboto', sans-serif;
+	color:#FFFFFF;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f4902c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.nav-a {
+	color: #FFFFFF;
+}
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #c6361e;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.text-center {
+	text-align: center;
+	color: #c6361e;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 20px;
+}
+.scrum-text {
+	text-align:left;
+	color: #2d0909;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 400;
+	padding-left: 20px;
+	margin-top: -10px;
+}
+
+.scrum-text:link {
+	color: #2d0909;
+	text-decoration: none;}
+
+.scrum-text:hoover {
+	color: #2d0909;
+	text-decoration: none;}
+
+.scrum-text:visited {
+	color: #d63f21;
+	text-decoration: none;}
+
+.scrum-text:active {
+	color: #ffe600;
+	text-decoration: none;}
+	
+h4 {
+	letter-spacing: 2px;
+}
+
+.Termsintext:link {
+	color: #2d0909;
+	text-decoration: none;}
+
+.Termsintext:hover {
+	color: #ffe600;
+	text-decoration: none;}
+
+.Termsintext:active {
+	color: #ffe600;
+	text-decoration: none;}
+
+	
+.Termsintext:visited {
+	color: #d63f21;
+	text-decoration: none;}
+
+.role-images {
+	width: 100%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-bottom: 15px;
+}
+
+.backlogimage {
+width: 95%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-bottom: 15px;
+	padding-top: 15px;
+}
+
+.example {
+	text-align: center;
+}
+
+.productbacklog {
+	width: 100%;
+  height: auto;
+	padding-bottom: 20px;
+}
+
+.term {
+	color: #f4902c;
+}
+
+.contact {
+	text-align: left;
+	color: #c6361e;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 20px;	
+}
+
+.contactform {
+	text-align: left;
+	color: #2d0909;
+}
+
+.newsletter-intro {
+	text-align:left;
+	color: #2d0909;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 400;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+form {
+  border: 3px solid #f1f1f1;
+  font-family: Arial;
+}
+
+.container {
+  padding: 20px;
+  background-color: #f1f1f1;
+}
+
+input[type=text], input[type=submit] {
+  width: 100%;
+  padding: 12px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+
+input[type=checkbox] {
+  margin-top: 16px;
+}
+
+input[type=submit] {
+  background-color: #9DC8EA;
+  color: white;
+  border: none;
+}
+
+input[type=submit]:hover {
+  opacity: 0.8;
+}
+
+.footer {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 10px;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color: #f4902c;
+  	color: white;
+  	text-align: center;
+	font-weight: 200;
+}
+

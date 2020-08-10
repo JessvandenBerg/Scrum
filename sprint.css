@@ -1,0 +1,158 @@
+@charset "UTF-8";
+.body {
+	background-color:#FCFEFF;
+}
+
+.menu {
+	color: #FFFFFF}
+
+.flex-container { 
+display: flex;
+max-width: 30%;
+height: auto;
+padding-left: 35%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.menu {
+	background-color: #f4902c;
+}
+
+#main {
+	color: #FFFEFE;
+	 font-family: 'Roboto', sans-serif;
+}
+.sidenav {
+font-family: 'Roboto', sans-serif;
+	color:#FFFFFF;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #f4902c;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #FFFFFF;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #c6361e;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+#main {
+  transition: margin-left .5s;
+  padding: 16px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+
+.text-center {
+	text-align: center;
+	color: #c6361e;
+	font-family: 'Roboto', sans-serif;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+.scrum-text {
+	text-align:left;
+	color: #2d0909;
+	font-family: 'Roboto', sans-serif; 
+	font-weight: 400;
+	padding-left: 20px;
+	margin-top: -10px;
+}
+h4 {
+	letter-spacing: 2px;
+}
+
+a:link {
+	color: #2d0909;
+	text-decoration: none;}
+
+a:hover {
+	color: #ffe600;
+	text-decoration: none;}
+
+a:active {
+	color: #ffe600;
+	text-decoration: none;}
+
+	
+a:visited {
+	color: #d63f21;
+	text-decoration: none;}
+
+.example {
+	text-align: center;
+}
+
+.productbacklog {
+	width: 100%;
+  height: auto;
+	padding-bottom: 20px;
+}
+
+.term {
+	color: #f4902c;
+}
+.title {
+	color: #f4902c;
+	text-align: center;
+}
+
+.BurndownChart {
+	width: 100%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-bottom: 15px;
+	
+}
+
+
+.role-images {
+	width: 100%;
+	display: block;
+  margin-left: auto;
+  margin-right: auto;
+	padding-bottom: 15px;
+}
+
+.footer {
+	font-family: 'Roboto', sans-serif; 
+	font-size: 10px;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	background-color: #f4902c;
+  	color: white;
+  	text-align: center;
+	font-weight: 200;
+}
